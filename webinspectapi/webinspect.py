@@ -318,6 +318,13 @@ class WebInspectApi(object):
         """
         return self._request('GET', '/webinspect/proxy/' + str(instance_id))
 
+    def get_scan_crawl_json(self, scan_guid):
+        """
+        :param scan_guid:
+        :return: WebInpsect response with success indicator and message
+        """
+        return self._request('POST', '/webinspect/scanner/scans/' + str(scan_guid) + '/data/sitetree/json')
+
     @staticmethod
     def _build_list_params(param_name, key, values):
         """Builds a list of POST parameters from a list or single value."""
