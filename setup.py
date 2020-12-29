@@ -28,8 +28,8 @@ setup(
     version=version,
     description='Python library enumerating the WebInspect RESTFul API scan, securebase, and proxy endpoints.',
     long_description=readme,
-    author='Brandon Spruth, Jim Nelson',
-    author_email='brandon@webbreaker.io',
+    author='Brandon Spruth',
+    author_email='brandon@fortifyadmin.io',
     url='https://github.com/webbreaker/webinspectapi',
     download_url='https://github.com/webbreaker/webinspectapi/tarball/' + version,
     license='MIT',
@@ -43,9 +43,9 @@ setup(
         'License :: OSI Approved :: MIT License',
         'Topic :: Software Development',
         'Topic :: Software Development :: Libraries :: Python Modules',
-        'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3.0',
         'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
     ]
 )

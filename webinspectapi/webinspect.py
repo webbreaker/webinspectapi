@@ -139,7 +139,7 @@ class WebInspectApi(object):
         """
         return self._request('GET', '/webinspect/scanner/scans?Name=' + str(scan_name))
 
-    def get_scan_issues(self, scan_guid):
+    def get_scan_issues_detail(self, scan_guid):
         """
         :param scan_guid:
         :return: Return issues identified by scan
