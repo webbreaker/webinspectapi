@@ -323,7 +323,7 @@ class WebInspectApi(object):
         :param scan_guid:
         :return: WebInpsect response with success indicator and message
         """
-        return self._request('POST', '/webinspect/scanner/scans/' + str(scan_guid) + '/data/sitetree/json')
+        return self._request('GET', '/webinspect/scanner/scans/' + str(scan_guid) + '/data/sitetree/json')
 
     @staticmethod
     def _build_list_params(param_name, key, values):
