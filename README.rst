@@ -49,5 +49,3 @@ Found something that doesn't seem right or have a feature request? `Please open 
 Copyright and License
 ~~~~~~~~~~~~~~~~~~~~~
 .. image:: https://img.shields.io/github/license/webbreaker/webinspectapi.svg?style=flat-square
-
-- Copyright 2018 Target Brands, Inc.
